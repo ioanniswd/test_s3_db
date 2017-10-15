@@ -5,7 +5,7 @@ const db = new DB();
 
 var col;
 
-db.getCollection('del_man_orders_s3_db')
+db.getCollection('delmanorderss3db')
   .then(collection => {
     col = collection;
     return col.find('some');
