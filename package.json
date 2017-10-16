@@ -13,6 +13,6 @@
     "aws-sdk": "^2.133.0"
   },
   "dependencies": {
-    "s3-db": "^2.2.15"
+    "s3-db": "file:../s3-db"
   }
 }
